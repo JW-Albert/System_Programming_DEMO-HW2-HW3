@@ -3,9 +3,11 @@ open CMD and input:
 gcc -o main main.c
 main sample.asm
 */
+#include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "2-optable.c"
+#include "1-token.h"
+#include "2-optable.h"
 
 /* Public variables and functions */
 #define ADDR_SIMPLE 0x01
