@@ -40,10 +40,10 @@ gcc -std=c99 -o main main.c 1-token.c 2-optable.c
 ### 執行方式
 ```bash
 # 執行 Pass 1
-./main <輸入檔案名稱>.asm
+main <輸入檔案名稱>.asm
 
 # 執行 Pass 2
-./main <輸入檔案名稱>.asm
+main <輸入檔案名稱>.asm
 ```
 
 ## 支援的指令格式
