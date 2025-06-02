@@ -30,11 +30,11 @@
 ```bash
 # 編譯 Pass 1
 cd Pass1
-gcc -o main main.c
+gcc -std=c99 -o main main.c 1-token.c 2-optable.c
 
 # 編譯 Pass 2
 cd Pass2
-gcc -o main main.c
+gcc -std=c99 -o main main.c 1-token.c 2-optable.c
 ```
 
 ### 執行方式

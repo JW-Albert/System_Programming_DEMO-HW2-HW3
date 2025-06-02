@@ -4,7 +4,8 @@ main test.asm
 */
 #include <string.h>
 #include <stdlib.h>
-#include "2-optable.c"
+#include "1-token.h"
+#include "2-optable.h"
 
 /* Public variables and functions */
 #define ADDR_SIMPLE 0x01
